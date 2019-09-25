@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/amarillo"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cinco"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TIPS\nTO BUILD A\n ANGUAJE\nLEARNING\nHABIT"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="45dp"
+            android:text="+ free \n New Habit \n Tracker!"
+            android:textSize="30dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:src="@drawable/paginas"/>
+    </LinearLayout>
+</LinearLayout>

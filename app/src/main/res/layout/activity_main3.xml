@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/iconos"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18 Educational Android \n     Apps for Teachers"
+        android:textStyle="bold"
+        android:textSize="27dp"
+        android:layout_marginTop="14dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        />
+
+    <TableRow>
+        <LinearLayout
+            android:layout_width="83dp"
+            android:layout_height="90dp"
+            android:orientation="vertical"
+            android:background="#fff"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Android \n Note \n Taking \n Apps"
+                android:textSize="12dp"
+                android:textColor="#C9131F"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="83dp"
+            android:layout_height="90dp"
+            android:orientation="vertical"
+            android:background="#DFD8D8"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/i1"
+                android:layout_marginLeft="6dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google Keep"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="83dp"
+            android:layout_height="90dp"
+            android:orientation="vertical"
+            android:background="#DFD8D8"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/i2"
+                android:layout_marginLeft="6dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Evernote"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="83dp"
+            android:layout_height="90dp"
+            android:orientation="vertical"
+            android:background="#DFD8D8"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/i3"
+            android:layout_marginLeft="6dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OneNote"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow>
+        <LinearLayout
+            android:layout_width="83dp"
+            android:layout_height="90dp"
+            android:orientation="vertical"
+            android:background="#fff"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n Android \n Portfolio \n Apps "
+                android:textSize="12dp"
+                android:textColor="#C9131F"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="83dp"
+            android:layout_height="90dp"
+            android:orientation="vertical"
+            android:background="#DFD8D8"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/i4"
+                android:layout_marginLeft="6dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weebly"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="83dp"
+            android:layout_height="90dp"
+            android:orientation="vertical"
+            android:background="#DFD8D8"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/i5"
+                android:layout_marginLeft="6dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Three Rings"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="83dp"
+            android:layout_height="90dp"
+            android:orientation="vertical"
+            android:background="#DFD8D8"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/i6"
+                android:layout_marginLeft="6dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seesaw"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+    </TableRow><TableRow>
+    <LinearLayout
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Android \n Presentation \n Apps"
+            android:textSize="12dp"
+            android:textColor="#C9131F"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#DFD8D8"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/i7"
+            android:layout_marginLeft="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Google Slides"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#DFD8D8"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/i8"
+            android:layout_marginLeft="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PowerPoint"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#DFD8D8"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/i9"
+            android:layout_marginLeft="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prezi Viewer"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+</TableRow><TableRow>
+    <LinearLayout
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Android \n Reference \n Apps"
+            android:textSize="12dp"
+            android:textColor="#C9131F"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#DFD8D8"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/i10"
+            android:layout_marginLeft="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EasyBib"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#DFD8D8"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/i11"
+            android:layout_marginLeft="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cite This For Me"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#DFD8D8"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/i12"
+            android:layout_marginLeft="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mendeley"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+</TableRow><TableRow>
+    <LinearLayout
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Android \n Video \n Apps"
+            android:textSize="12dp"
+            android:textColor="#C9131F"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#DFD8D8"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/i13"
+            android:layout_marginLeft="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Magisto Video \n Editor y Maker"
+            android:layout_gravity="center"
+            android:textSize="9dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#DFD8D8"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/i14"
+            android:layout_marginLeft="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Video Editor"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#DFD8D8"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/i15"
+            android:layout_marginLeft="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animoto Video \n         Maker"
+            android:layout_gravity="center"
+            android:textSize="9dp"
+            />
+    </LinearLayout>
+
+</TableRow><TableRow>
+    <LinearLayout
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Android \n Main Mapping \n Apps"
+            android:textSize="12dp"
+            android:textColor="#C9131F"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#DFD8D8"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/i16"
+            android:layout_marginLeft="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SimpleMind"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#DFD8D8"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/i7"
+            android:layout_marginLeft="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MIndMeister"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="83dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#DFD8D8"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/i18"
+            android:layout_marginLeft="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mindomo"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    </TableRow>
+
+</TableLayout>
